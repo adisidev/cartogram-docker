@@ -19,6 +19,7 @@ services:
       - "5001:5001"
     volumes:
       - ./data/userdata:/root/internal/static/userdata
+      - ./cartogram-web/internal/lambda_package:/root/internal/lambda_package
     secrets:
       - password
     dns:
