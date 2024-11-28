@@ -5,8 +5,8 @@ This repository contains a Docker compose file that makes it easy to install and
 1. [Install Docker and Docker Compose](docs/docker.md).
 2. Clone this repository.
 
-```shell script
-$ git clone https://github.com/go-cart-io/cartogram-docker.git
+```bash script
+git clone https://github.com/go-cart-io/cartogram-docker.git
 ```
 
 3. Copy `password.txt.dist` to `password.txt` and `.env.dist` to `.env`. You may modify the content in the files as needed.
